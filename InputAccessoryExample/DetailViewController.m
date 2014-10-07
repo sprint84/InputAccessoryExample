@@ -26,16 +26,9 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(GT_keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(GT_keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];
-}
-
-- (BOOL)canBecomeFirstResponder
-{
-    return YES;
-}
-
-- (UIView *)inputAccessoryView
-{
-    return self.customInputView;
+    
+    self.containerView.customInputView = self.customInputView;
+    [self.containerView becomeFirstResponder];
 }
 
 - (IBAction)sendButtonPressed:(id)sender

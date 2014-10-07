@@ -15,6 +15,7 @@
 		455AAF2119E477BA00451A7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455AAF2019E477BA00451A7B /* Images.xcassets */; };
 		455AAF2419E477BA00451A7B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 455AAF2219E477BA00451A7B /* LaunchScreen.xib */; };
 		455AAF3019E477BA00451A7B /* InputAccessoryExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 455AAF2F19E477BA00451A7B /* InputAccessoryExampleTests.m */; };
+		455AAF3E19E4A9DD00451A7B /* ContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 455AAF3D19E4A9DD00451A7B /* ContainerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		455AAF2919E477BA00451A7B /* InputAccessoryExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InputAccessoryExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		455AAF2E19E477BA00451A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		455AAF2F19E477BA00451A7B /* InputAccessoryExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputAccessoryExampleTests.m; sourceTree = "<group>"; };
+		455AAF3C19E4A9DD00451A7B /* ContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerView.h; sourceTree = "<group>"; };
+		455AAF3D19E4A9DD00451A7B /* ContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				455AAF1819E477BA00451A7B /* MasterViewController.m */,
 				455AAF1A19E477BA00451A7B /* DetailViewController.h */,
 				455AAF1B19E477BA00451A7B /* DetailViewController.m */,
+				455AAF3C19E4A9DD00451A7B /* ContainerView.h */,
+				455AAF3D19E4A9DD00451A7B /* ContainerView.m */,
 				455AAF1D19E477BA00451A7B /* Main.storyboard */,
 				455AAF2019E477BA00451A7B /* Images.xcassets */,
 				455AAF2219E477BA00451A7B /* LaunchScreen.xib */,
@@ -228,6 +233,7 @@
 				455AAF1919E477BA00451A7B /* MasterViewController.m in Sources */,
 				455AAF1319E477BA00451A7B /* main.m in Sources */,
 				455AAF1C19E477BA00451A7B /* DetailViewController.m in Sources */,
+				455AAF3E19E4A9DD00451A7B /* ContainerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +424,7 @@
 				455AAF3519E477BA00451A7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		455AAF3619E477BA00451A7B /* Build configuration list for PBXNativeTarget "InputAccessoryExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				455AAF3819E477BA00451A7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
