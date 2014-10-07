@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ContainerView.h"
 
 @interface DetailViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
+@property (weak, nonatomic) IBOutlet ContainerView *containerView;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UIView *customInputView;
 @property (weak, nonatomic) IBOutlet UITextField *inputTextField;

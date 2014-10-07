@@ -70,7 +70,7 @@
                         <viewControllerLayoutGuide type="top" id="odq-qA-RI9"/>
                         <viewControllerLayoutGuide type="bottom" id="OJJ-Oe-h8I"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="gyH-cg-NCH">
+                    <view key="view" contentMode="scaleToFill" id="gyH-cg-NCH" customClass="ContainerView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -109,6 +109,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="containerView" destination="gyH-cg-NCH" id="gLg-SW-tRm"/>
                         <outlet property="customInputView" destination="8gp-8T-Z7P" id="9lg-BJ-PmC"/>
                         <outlet property="inputTextField" destination="q0R-Cj-C87" id="FBk-O8-78Z"/>
                         <outlet property="tableView" destination="VyY-np-v3E" id="Emx-xC-K5i"/>
